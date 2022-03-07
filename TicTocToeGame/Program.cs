@@ -12,6 +12,8 @@ namespace TicTocToeGame
         {
             Console.WriteLine("***** Tic Toc Toe ******");
             TicTocToeGame.createBoard();
+            TicTocToeGame toeGame= new TicTocToeGame();
+            toeGame.PlayerInput();
             Console.ReadLine();
         }
     }
